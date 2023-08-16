@@ -1,0 +1,36 @@
+version: "3.9"
+services:
+  jupyter-notebook:
+    build:
+      context: .
+      target: jupyter-notebook
+    environment:
+      - JUPYTER_TOKEN=hi
+    volumes:
+      - ./.docker/jupyter:/home/jovyan/work
+    ports:
+      - 8888:8888
+    container_name: PyDeveloper
+  mongodb:
+    build:
+      context: .
+      target: mongodb
+    volumes:
+      - ./.docker/mongodb:/data/db
+    restart: always
+    env_file: ./env/.env-mongodb
+    ports:
+      - "27017:27017"
+  # ##Instalação opção do painel administrativo do mongoDB
+  # mongo-express:
+  #   image: mongo-express
+  #   depends_on:
+  #     - mongodb
+  #   restart: unless-stopped
+  #   environment:
+  #     ME_CONFIG_MONGODB_ADMINUSERNAME: admin
+  #     ME_CONFIG_MONGODB_ADMINPASSWORD: 07Sh@lon
+  #     ME_CONFIG_MONGODB_SERVER: mongodb
+  #     ME_CONFIG_MONGODB_URL: mongodb://admin:07Sh@lon@localhost:27017/
+  #   ports:
+  #     - 8081:8081
