@@ -1,3 +1,13 @@
+"""
+Este código foi baseado nas sugestões e orientações fornecidas pelo Prof. Guilherme  DIO
+sendo parte essencial para o desenolvimendo das atividades do curso Formação Python Deve
+loper/Python Developer Training.
+Autor: [Vitor Campos]
+GitHub: [https://github.com/vitorkol]
+Repositório Original: [https://github.com/vitorkol/python-developer-training]
+Data: [2023-08-16]
+"""
+
 menu = """
 [d] Depositar
 [s] Sacar
