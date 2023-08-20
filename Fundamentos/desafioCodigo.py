@@ -1,4 +1,15 @@
 """
+Este código foi baseado nas sugestões e orientações fornecidas pelo Prof. Guilherme  DIO
+sendo parte essencial para o desenolvimendo das atividades do curso Formação Python Deve
+loper/Python Developer Training.
+Autor: [Vitor Campos]
+GitHub: [https://github.com/vitorkol]
+Repositório Original: [https://github.com/vitorkol/python-developer-training]
+Data: [2023-08-20]
+"""
+
+
+"""
 # Desafio 1
 Leia um valor inteiro entre 1 e 12, inclusive. Correspondente a este valor, deve ser apresentado 
 como resposta o mês do ano por extenso, em inglês, com a primeira letra maiúscula.
