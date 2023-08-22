@@ -1,6 +1,6 @@
 # python-developer-training
 
-Este repositório tem por objetivo trazer uma visão geral sobre a <b>Formação Python Developer </b> em um nível avançado, ofertado pela DIO.me.<br />
+Este repositório tem por objetivo trazer uma visão geral sobre a <b>[Formação Python Developer](https://dio.me/curso-intensivo-python/AFMNN17O1R6T)</b> em um nível avançado, ofertado pela DIO.me.<br />
 Esta formação possui 6 módulos conforme a estrutura definida a seguir:
 
 - Módulo 1 - Fundamento de Python
@@ -50,7 +50,7 @@ A criação deste repositório, considerei trazer uma solução para pessoas que
 - Use o editor de texto de sua preferência Gitbash or VScode para clonar o repositório via fork.
 - Navegue até a pasta raiz do projeto.
 - Execute o compando ```docker compose up -d```.
-- Executado o arquivo e criado o container no docker em seu naegador da web digite: <localhost:3000>.
-- Pronto, agora você tem o mysql workbench rodando em sua máquina pelo browser.
+- Executado o arquivo e criado o container no docker em seu naegador da web digite: <localhost:8080>.
+- Pronto, agora você tem o python rodando com Conda, Julia e Jupyter Notebook rodando em sua máquina pelo browser.
 
 ![Formação Python Developer](./images//python_docker.png)
