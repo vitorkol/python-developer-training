@@ -1,6 +1,7 @@
-# python-developer-training
+# Python developer Training
 
 Este repositório tem por objetivo trazer uma visão geral sobre a <b>[Formação Python Developer](https://dio.me/curso-intensivo-python/AFMNN17O1R6T)</b> em um nível avançado, ofertado pela DIO.me.<br />
+
 Esta formação possui 6 módulos conforme a estrutura definida a seguir:
 
 - Módulo 1 - Fundamento de Python
@@ -46,6 +47,7 @@ A criação deste repositório, considerei trazer uma solução para pessoas que
 
 ### Introdução para executar o arquivo yaml
 - ❌ Não faça o download do projeto    ✅ Faça o fork utilizando a forma https ou ssh.
+- Customize o tempo e desenvolvimento usando WSL2 com Docker Engine - [Tutorial](https://github.com/vitorkol/wsl2-without-docker-desktop).
 - Instale o programa docker - *[docker](https://www.docker.com)*.
 - Use o editor de texto de sua preferência Gitbash or VScode para clonar o repositório via fork.
 - Navegue até a pasta raiz do projeto.
